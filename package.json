@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "17.2.0"
-  },
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js -e js,hbs"
@@ -19,6 +16,6 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "nodemon": "^1.2.0"
+    "nodemon": "^2.0.15"
   }
 }
