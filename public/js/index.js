@@ -3,7 +3,7 @@ const search = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
 const message2 = document.querySelector('#message-2')
 
-message1.textContent = '!!!Use the "Search" button to search for a weather in the selected location.'
+message1.textContent = '!!test!Use the "Search" button to search for a weather in the selected location.'
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
