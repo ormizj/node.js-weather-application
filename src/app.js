@@ -6,9 +6,7 @@ import { geocode } from './utils/geocode.js'
 import { forecast } from './utils/forecast.js'
 
 const app = express()
-// const port = process.env.PORT || 3000 //Setting port for "Heroku"
-
-app.set('port', (process.env.PORT || 3000));
+const port = process.env.PORT || 3000 //Setting port for "Heroku"
 
 // define paths for Express config
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -99,6 +97,6 @@ app.get('*', (req, res) => {
 //404 pages - end
 
 
-app.listen(app.get('port'), () => {
-    console.log('Server is up on port ' + app.get('port'))
+app.listen(port, () => {
+    console.log('Server is up on port ' + port)
 })
