@@ -8,8 +8,7 @@
     "node": "17.2.0"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "heroku-postbuild": "npm run build"
+    "start": "node src/app.js"
   },
   "author": "",
   "license": "ISC",
